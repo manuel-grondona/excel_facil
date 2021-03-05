@@ -1,0 +1,89 @@
+body {
+  height: 100vh;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Nunito", sans-serif;
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  background-color: #333;
+  padding: 8px 32px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header > p {
+  color: #bababa;
+  margin: 0;
+  font-size: 14px;
+}
+
+.icons-container {
+  display: flex;
+}
+
+.icon-item {
+  background-color: white;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2px;
+  margin-left: 5px;
+}
+
+.icon-item > img {
+  width: 24px;
+}
+
+.title {
+  color: #414e21;
+  font-size: 42px;
+  background-color: #c0d0c0;
+  margin: 0;
+  padding: 8px 32px;
+}
+
+.content-section {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+#content {
+  background-color: #f7f7f7;
+  flex: 1;
+  padding-left: 32px;
+  padding-top: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.subtitle {
+  margin: 0;
+  margin-bottom: 14px;
+}
+
+.list {
+  font-size: 14px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.list-item {
+  padding: 8px 0;
+}
+
+.list-item > a {
+  color: #3a6d07;
+  text-decoration: none;
+}
+
+.list-item > a:hover {
+  color: #6da03a;
+  text-decoration: underline;
+}
